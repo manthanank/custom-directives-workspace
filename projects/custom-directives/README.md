@@ -12,29 +12,7 @@ npm install @manthanankolekar/custom-directives
 
 ## Usage
 
-Import the module in your Angular application:
-
-```typescript
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { AppComponent } from './app.component';
-import { CustomDirectivesModule } from '@manthanankolekar/custom-directives';
-
-@NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    CustomDirectivesModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
-export class AppModule { }
-```
-
-In standalone Angular applications, you can import in `app.component.ts`:
+Import in your `app.component.ts`:
 
 ```typescript
 import { Component } from '@angular/core';
