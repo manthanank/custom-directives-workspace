@@ -1,8 +1,15 @@
 {
   "name": "@manthanankolekar/custom-directives",
-  "version": "0.0.3",
+  "version": "0.0.4",
+  "description": "A collection of custom Angular directives.",
+  "keywords": [
+    "angular",
+    "directives",
+    "custom",
+    "typescript"
+  ],
   "peerDependencies": {
-   "@angular/common": "^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
+    "@angular/common": "^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
     "@angular/core": "^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0"
   },
   "dependencies": {
