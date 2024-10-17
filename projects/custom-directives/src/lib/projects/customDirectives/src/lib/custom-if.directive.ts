@@ -1,7 +1,7 @@
 import { Directive, Input, TemplateRef, ViewContainerRef } from '@angular/core';
 
 @Directive({
-  selector: '[libCustomIf]',
+  selector: '[appCustomIf]',
   standalone: true
 })
 export class CustomIfDirective {

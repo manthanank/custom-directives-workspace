@@ -1,7 +1,7 @@
 import { Directive, ElementRef, Input, Renderer2 } from '@angular/core';
 
 @Directive({
-  selector: '[libCustomStyle]',
+  selector: '[appCustomStyle]',
   standalone: true
 })
 export class CustomStyleDirective {

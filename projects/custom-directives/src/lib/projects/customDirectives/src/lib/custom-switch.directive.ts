@@ -1,7 +1,7 @@
 import { Directive, Input, TemplateRef, ViewContainerRef } from '@angular/core';
 
 @Directive({
-  selector: '[libCustomSwitch]',
+  selector: '[appCustomSwitch]',
   standalone: true
 })
 export class CustomSwitchDirective {

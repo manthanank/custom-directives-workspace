@@ -1,7 +1,7 @@
 import { Directive, ElementRef, EventEmitter, HostListener, Input, Output } from '@angular/core';
 
 @Directive({
-  selector: '[libCustomModel]',
+  selector: '[appCustomModel]',
   standalone: true
 })
 export class CustomModelDirective {

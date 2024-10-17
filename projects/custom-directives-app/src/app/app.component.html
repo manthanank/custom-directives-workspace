@@ -1,0 +1,27 @@
+<!-- Custom If Directive -->
+<p *appCustomIf="isVisible" style="color: green; font-weight: bold;">This is visible when isVisible is true.</p>
+
+<!-- Custom For Directive -->
+<ul style="list-style-type: none; padding: 0;">
+  <li *appCustomFor="let item of items" style="background-color: #f0f0f0; margin: 5px 0; padding: 10px;">Item: {{ item }}</li>
+</ul>
+
+<!-- Custom Switch Directive -->
+<div [appCustomSwitch]="view" style="border: 1px solid #ccc; padding: 10px;">
+  <ng-template appCustomSwitchCase="view1">
+    <div style="color: blue;">This is View 1</div>
+  </ng-template>
+  <ng-template appCustomSwitchCase="view2">
+    <div style="color: red;">This is View 2</div>
+  </ng-template>
+</div>
+
+<!-- Custom Class Directive -->
+<div [appCustomClass]="{ 'highlighted': isActive }" style="padding: 10px; border: 1px solid #000;">This div will have 'highlighted' class based on isActive.</div>
+
+<!-- Custom Style Directive -->
+<div [appCustomStyle]="{ 'color': textColor }" style="font-size: 18px;">This text color will change dynamically based on textColor.</div>
+
+<!-- Custom Model Directive (Two-way data binding) -->
+<input [appCustomModel]="inputValue" (appCustomModelChange)="inputValue = $event" style="padding: 5px; border: 1px solid #ccc;">
+<p style="font-style: italic;">Input value: {{ inputValue }}</p>

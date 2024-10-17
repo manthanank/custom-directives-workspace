@@ -1,7 +1,7 @@
 import { Directive, ElementRef, Input, Renderer2 } from '@angular/core';
 
 @Directive({
-  selector: '[libCustomClass]',
+  selector: '[appCustomClass]',
   standalone: true
 })
 export class CustomClassDirective {

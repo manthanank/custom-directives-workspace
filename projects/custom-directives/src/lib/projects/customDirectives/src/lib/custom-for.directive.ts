@@ -1,7 +1,7 @@
 import { Directive, Input, TemplateRef, ViewContainerRef } from '@angular/core';
 
 @Directive({
-  selector: '[libCustomFor]',
+  selector: '[appCustomFor]',
   standalone: true
 })
 export class CustomForDirective {
