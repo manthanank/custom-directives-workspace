@@ -26,24 +26,26 @@ import { CustomSwitchDirective, CustomSwitchCaseDirective } from '../../../custo
 export class AppComponent {
   isVisible = true;
   items = ['Item 1', 'Item 2', 'Item 3'];
-  view = 'view1';
+  currentView = 'view1';
   isActive = true;
   textColor = 'blue';
-  inputValue = 'Initial Value';
+  fontSize = '20px';
+  userInput = 'Type something...';
 
   toggleVisibility() {
     this.isVisible = !this.isVisible;
   }
 
-  changeView() {
-    this.view = this.view === 'view1' ? 'view2' : 'view1';
+  toggleView() {
+    this.currentView = this.currentView === 'view1' ? 'view2' : 'view1';
   }
 
   toggleClass() {
     this.isActive = !this.isActive;
   }
 
-  changeColor() {
+  changeStyle() {
     this.textColor = this.textColor === 'blue' ? 'red' : 'blue';
+    this.fontSize = this.fontSize === '20px' ? '25px' : '20px';
   }
 }
